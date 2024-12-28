@@ -1,0 +1,148 @@
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.venv
+.venv/
+env/
+ENV/
+venv/
+venv.bak/
+.Python
+*.ipynb_checkpoints
+*.pytest_cache/
+
+# Pytest and test logs
+.cache/
+test-results/
+coverage/
+
+# Docker related
+docker-compose.override.yml
+docker-compose.local.yml
+.dockerignore
+.docker/
+*.tar
+
+# Virtualization and environment files
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoint
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Compiled code
+*.class
+*.dll
+*.exe
+*.so
+*.o
+*.out
+*.a
+
+# Data Science files
+*.csv
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.npz
+*.npy
+*.sav
+*.pkl
+*.dta
+*.arff
+*.rdata
+*.rda
+*.jsonl
+
+# Machine learning models
+*.h5
+*.model
+*.joblib
+*.pt
+*.onnx
+
+# Cloud and credentials
+*.json
+*.key
+*.pem
+*.p12
+*.crt
+*.cert
+*.csr
+*.cer
+.secrets/
+.gcloud/
+config.json
+.kube/
+
+# Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# GCP specific
+.cloudbuild/
+.cloudfunctions/
+cloudstorage-emulator/
+cloudsql/
+# Any auto-generated service account files or GCP keys
+*.gcpkey
+
+# IntelliJ/IDE specific
+.idea/
+.vscode/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Build files
+build/
+dist/
+*.spec
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.swap
+
+# Metadata files
+*.lock
+package-lock.json
+yarn.lock
+poetry.lock
+
+# Environment variable files
+.env
+.env.*
+.local.env
+
+# Miscellaneous
+*.log.*
+!log_config.json  # Exception: Log config JSON files used in production
+

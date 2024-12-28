@@ -1,0 +1,19 @@
+// config.js
+const CONFIG = {
+    instance: 'stream-relay-065j',
+    zone: 'us-east1-b',
+    youtubeKey: 'wz1t-m73w-7wdh-ewyk-b4km',
+    rtmpUrl: 'rtmp://10.0.0.5:1935/live/live'
+};
+
+
+// commands.js
+const COMMANDS = {
+    getSSHCommand: () => {
+        return `gcloud compute ssh ${CONFIG.instance} --zone=${CONFIG.zone}`;
+    },
+    
+    getStreamCommand: () => {
+        return `ffmpeg -i ${CONFIG.rtmpUrl} -c copy -f flv -flvflags no_duration_filesize -rtmp_buffer 10000k "rtmp://a.rtmp.youtube.com/live2/${CONFIG.youtubeKey}"`;
+    }
+};
