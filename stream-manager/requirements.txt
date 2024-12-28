@@ -1,0 +1,6 @@
+streamlit==1.22.0
+sqlalchemy==1.4.23
+google-cloud-compute==1.0.0
+pydantic==1.8.2
+asyncio==3.4.3
+aiofiles==0.7.0
