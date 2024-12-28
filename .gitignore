@@ -150,4 +150,4 @@ poetry.lock
 # secrets
 secrets.env
 *.pyc
-__pycache__/
+__pycache__/secrets.env
